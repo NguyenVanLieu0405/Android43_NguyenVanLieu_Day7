@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:id="@+id/linear"
         android:layout_width="match_parent"
@@ -24,6 +25,7 @@
                 android:textSize="30dp" />
 
             <TextView
+                android:id="@+id/tvSave"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -46,19 +48,21 @@
 
 
         <EditText
+            android:id="@+id/edtTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/ic_vientrang"
-            android:text="@string/edt_title" />
+            android:hint="@string/edt_title" />
 
         <EditText
+            android:id="@+id/edtDes"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_margin="10dp"
             android:background="@drawable/ic_vientrang"
             android:gravity="start"
-            android:text="@string/edt_des"
+            android:hint="@string/edt_des"
             android:textAlignment="textStart" />
 
         <TextView
@@ -160,7 +164,7 @@
 
         <Button
             android:layout_marginLeft="10dp"
-            android:id="@+id/btTune"
+            android:id="@+id/btnTune"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/bt_tune" />
@@ -173,5 +177,5 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/linear" />
 
-
-</RelativeLayout>
+    </RelativeLayout>
+</layout>

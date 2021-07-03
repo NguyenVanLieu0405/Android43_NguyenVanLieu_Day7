@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Screen</string>
+    <string name="tv_title">Create New Note</string>
+    <string name="tv_save">SAVE</string>
+    <string name="edt_title">Title</string>
+    <string name="edt_des">Description</string>
+    <string name="tv_remind">Remind me at : </string>
+    --fragment--
+    <string name="tv_type">Type : </string>
+    <string name="tv_tag">Tag : </string>
+    <string name="tv_weeks">Weeks : </string>
+    <string name="bt_tune">Tune</string>
+</resources>

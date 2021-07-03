@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="80dp"
+    android:background="@drawable/ic_vientrang"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:id="@+id/tv_fromfile"
+        android:background="@drawable/ic_vientrang"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        android:text="From file" />
+
+    <TextView
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:id="@+id/tv_fromdefault"
+        android:background="@drawable/ic_vientrang"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="From default" />
+
+
+</LinearLayout>
